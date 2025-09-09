@@ -1,5 +1,4 @@
 //Convert a temperature from Celsius to Fahrenheit using the formula: F = (C * 9/5) + 32.
-package Java_Programs;
 import java.util.Scanner;
 public class Temp_conveter {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 // Calculate the sum of the first n natural numbers using the formula: sum = (n * (n + 1)) / 2.
-package Java_Programs;
+
 import java.util.Scanner;
 public class NaturalNo_Sum 
 {

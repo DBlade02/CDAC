@@ -1,5 +1,4 @@
 //Determine the volume of a sphere given its radius using the formula: V = (4/3) * π * r^3.
-package Java_Programs;
 import java.util.Scanner;
 public class Volume_Spear {
     public static void main(String[] args) {

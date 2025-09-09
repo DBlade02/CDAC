@@ -1,5 +1,4 @@
 //Calculate the area of a circle given its radius using the formula: A = π * r^2.
-package Java_Programs;
 public class Area_of_circle {
     public static void main(String[] args) {
         int radius = 5; // Example radius

@@ -1,5 +1,4 @@
 //Calculate the simple interest on an investment using the formula: A = P * T * R / 100;
-package Java_Programs;
 import java.util.Scanner;
 public class Intrest_of_Investment {
     public static void main(String[] args) {

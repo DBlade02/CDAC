@@ -1,4 +1,5 @@
-package Java_Programs;
+// Java program to calculate the area of a rectangle
+// using the formula: Area = length * width.
 
 public class Area_rec {
     public static void main(String[] args) {

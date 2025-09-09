@@ -1,6 +1,5 @@
 //Calculate the compound interest on an investment using the formula: A = P * (1 + r/n)^(n*t).
 
-package Java_Programs;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Compound_Intrest {

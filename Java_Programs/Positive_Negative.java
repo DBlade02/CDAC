@@ -1,4 +1,4 @@
-package Java_Programs;
+// Determine whether a number is positive, negative, or zero.
 
 import java.util.Scanner;
 public class Positive_Negative {

@@ -7,7 +7,7 @@ where:
 a, b, and c are the lengths of the triangle's sides.
 s is the semi perimeter (half of the perimeter) of the triangle.
 A is the area of triangle*/
-package Java_Programs;
+
 import java.util.Scanner;
 public class Herons 
 {
