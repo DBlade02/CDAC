@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Compound_Intrest {
         public static void main(String[] args) {
             try (Scanner sc = new Scanner(System.in)) { //try-with-resources statement
-                System.out.print("Enter the P : "); //Principal
+                System.out.print("Enter the Principal : "); //Principal
                 double P = sc.nextDouble();
                 
-                System.out.print("Enter the r : "); //Rate
+                System.out.print("Enter the rate : "); //Rate
                 Double r = sc.nextDouble();
                 
-                System.out.print("Enter the t : "); //Time
+                System.out.print("Enter the time : "); //Time
                 int t = sc.nextInt();
                 
                 System.out.print("Enter the n : ");

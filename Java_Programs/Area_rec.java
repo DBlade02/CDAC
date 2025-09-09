@@ -2,7 +2,6 @@ package Java_Programs;
 
 public class Area_rec {
     public static void main(String[] args) {
-        
         double length = 10.5; // Example length
         double width = 5.0;  // Example width
 
