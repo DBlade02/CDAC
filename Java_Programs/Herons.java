@@ -13,7 +13,7 @@ public class Herons
 {
 public static void main(String[] args) 
   {
-    Scanner sc = new Scanner(System.in);
+    try(Scanner sc = new Scanner(System.in);){
     System.out.print("Enter a: ");
     double a = sc.nextDouble();
     System.out.print("Enter b: ");
@@ -24,5 +24,6 @@ public static void main(String[] args)
     double Area = Math.sqrt(semi_P * (semi_P - a) * (semi_P - b) * (semi_P - c)); // Area of triangle
     System.out.println("The Semi Perimeter is : "+semi_P); //printing semi perimeter
     System.out.println("The Area of Triangle is : "+Area); //printing area of triangle 
+    }
   }
 } 
