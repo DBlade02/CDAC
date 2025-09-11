@@ -1,8 +1,10 @@
 // Determine whether a number is positive, negative, or zero.
 
 import java.util.Scanner;
-public class Positive_Negative {
-    public static void main(String[] args) {
+public class Positive_Negative 
+{
+    public static void main(String[] args) 
+    {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter a number: ");
             Float number = sc.nextFloat();
@@ -18,7 +20,7 @@ public class Positive_Negative {
                 System.out.println("The number is negative.");
             }
         }
-        catch (Exception e)
+        catch (Exception e) 
         {
             System.out.println("Invalid input. Please enter a valid number.");
         }
