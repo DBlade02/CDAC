@@ -17,8 +17,6 @@ public class ArrReadPrint {
         for (int i = 0; i < size; i++) {
             System.out.print(numbers[i] + " ");
         }
-        System.out.println();
-        System.out.print("Using enhanced for loop: ");
         scanner.close();
     }
 }
