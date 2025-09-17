@@ -1,0 +1,6 @@
+name = input("Name : ")
+age = int(input("Age : "))
+current_status = int(input("1. DevOps 2. Full stcak, 3. MERN : "))
+print(name)
+print(age)
+print(current_status)
