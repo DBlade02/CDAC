@@ -1,3 +1,7 @@
+/*Static Variable: Create a class BankAccount with accno, accType, Balance and static
+variable interestRate. Initialize it using a static block. Implement methods to deposit and
+withdraw funds. Create objects and display details.*/
+
 public class BankAcc {
 
     private int accNo;
