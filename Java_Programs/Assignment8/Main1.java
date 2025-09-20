@@ -1,26 +1,11 @@
-abstract class Shape{
-    abstract void area();
-}
-
-class Rectangle extends Shape{
-    void area(){
-        System.out.println("Area of Rectangle");
-    }  
-}
-
-class Circle extends Shape{
-    void area(){
-        System.out.println("Area of Circle");
-    }
-}
-
-class Main1 {
+public class Main1 {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle();
-        r.area();
+        
 
-        Circle c = new Circle();
-        c.area();   
+        Circle circle = new Circle(5.0);
+        Rectangle rectangle = new Rectangle(4.0, 6.0);
+
+        System.out.println("Circle area: " + circle.area());
+        System.out.println("Rectangle area: " + rectangle.area());
     }
-    
 }
