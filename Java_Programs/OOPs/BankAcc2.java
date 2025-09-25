@@ -4,19 +4,19 @@ to calculate interest based on a given balance and interest rate.
 Also, implement a method to display the account details including balance and interest earned. */
 public class BankAcc2 {
 
-    private int accNo;
-    private String accType;
+    private int accountNumber;
+    private String accountType;
     private double balance;
     private static double interestRate;
 
-    public BankAcc2(int accNo, String accType, double balance, double interestRate) {
-        this.accNo = accNo;
-        this.accType = accType;
+    public BankAcc2(int accountNumber, String accountType, double balance, double interestRate) {
+        this.accountNumber = accountNumber;
+        this.accountType = accountType;
         this.balance = balance;
         this.interestRate = interestRate;
     }
 
-    public static double calculateInterest(double balance) {
+    public static double calculateInterest(double balance, double interestRate) {
         return balance * interestRate / 100;
     }
 
@@ -39,10 +39,11 @@ public class BankAcc2 {
     }
 
     public void displayDetails() {
-        System.out.println("Account No: " + accNo);
-        System.out.println("Account Type: " + accType);
+        System.out.println("Account No: " + accountNumber);
+        System.out.println("Account Type: " + accountType);
         System.out.println("Balance: " + balance);
         System.out.println("Interest Rate: " + interestRate + "%");
+        System.out.println("Interest Earned: " + calculateInterest(balance, interestRate));
         System.out.println("-------------------------------");
     }
 
@@ -69,7 +70,7 @@ public class BankAcc2 {
 
         System.out.println("");
 
-        double interest1 = BankAcc2.calculateInterest(b1.balance);
+        double interest1 = BankAcc2.calculateInterest(b1.balance, b1.interestRate);
         System.out.println("Interest earned on account 1: " + interest1);
     }
 }

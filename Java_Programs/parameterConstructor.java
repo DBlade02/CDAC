@@ -19,7 +19,7 @@ class AgeAndName {
 
 class parameterConstructor {
   public static void main(String[] args) {
-    AgeAndName obj = new AgeAndName(20, "John");
+    AgeAndName obj = new AgeAndName(25, "Aditya Mogre");
     obj.display();
 
   }
