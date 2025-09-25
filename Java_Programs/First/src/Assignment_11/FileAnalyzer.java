@@ -28,9 +28,7 @@ public class FileAnalyzer {
         } catch (IOException e) {
             System.err.println("Error reading the file: " + e.getMessage());
             return;
-        }
-
-        // Write the results to result.txt
+        } 
         try (FileWriter writer = new FileWriter(resultFileName)) {
             writer.write("Analysis of " + fileName + ":\n");
             writer.write("Number of Lines: " + lineCount + "\n");
