@@ -1,0 +1,4 @@
+Analysis of D:\CDAC\Java_Programs\First\src\Assignment_11\FileAnalyzer.java:
+Number of Lines: 45
+Number of Words: 183
+Number of Characters: 1718
