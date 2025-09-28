@@ -15,8 +15,6 @@ public class Program4 {
 				}
 		    }
 		}
-
 		System.out.println("Longest line: " + LongString);
 	}
-
 }

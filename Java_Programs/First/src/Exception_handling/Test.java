@@ -1,5 +1,7 @@
 /*Problem 4: Number Format Exception
-Task: Write a program that takes a string input from the user and tries to convert it to an integer. Use a try block to perform the conversion and a catch block to handle the NumberFormatException. Ensure a finally block prints a message indicating the operation is complete.
+Task: Write a program that takes a string input from the user and tries to convert it to an integer. 
+Use a try block to perform the conversion and a catch block to handle the NumberFormatException. 
+Ensure a finally block prints a message indicating the operation is complete.
 
 Problem: Nested Try Blocks with Multiple Exceptions
 Task: Write a program that demonstrates the use of nested try blocks. The program should perform the following tasks:
