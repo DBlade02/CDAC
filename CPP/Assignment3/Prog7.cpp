@@ -45,7 +45,7 @@ int main()
     Book books[3];
     int highestIndex = 0;
 
-    cout << "Enter details of 5 books:\n";
+    cout << "Enter details of 3 books:\n";
     for (int i = 0; i < 3; i++)
     {
         cout << "\nBook " << i + 1 << ":\n";
