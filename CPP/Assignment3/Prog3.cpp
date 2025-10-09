@@ -25,7 +25,7 @@ public:
         cout << "Name: " << name << endl;
         cout << "Marks: " << marks << endl;
     }
-}; // ✅ Missing semicolon after class definition
+};
 
 int main() {
     Student student[3];
@@ -44,7 +44,6 @@ int main() {
 
         student[i].input(rollNo, name, marks);
     }
-
     cout << "\n--- Student Details ---\n";
     for (int i = 0; i < 3; i++) {
         cout << "\nStudent " << i + 1 << ":" << endl;
