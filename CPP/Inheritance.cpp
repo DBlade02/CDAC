@@ -14,8 +14,7 @@ class B : public A{
         A::display();
         cout<< "This is B class "<< endl;
         
-    }
-        
+    }   
 };
 
 int main(){
