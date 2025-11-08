@@ -1,0 +1,15 @@
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.AssemblyInfoInputs.cache
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.AssemblyInfo.cs
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.csproj.CoreCompileInputs.cache
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.sourcelink.json
+D:\CDAC\DotNet_MVC\Csharp\Csharp\bin\Debug\net8.0\Csharp.exe
+D:\CDAC\DotNet_MVC\Csharp\Csharp\bin\Debug\net8.0\Csharp.deps.json
+D:\CDAC\DotNet_MVC\Csharp\Csharp\bin\Debug\net8.0\Csharp.runtimeconfig.json
+D:\CDAC\DotNet_MVC\Csharp\Csharp\bin\Debug\net8.0\Csharp.dll
+D:\CDAC\DotNet_MVC\Csharp\Csharp\bin\Debug\net8.0\Csharp.pdb
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.dll
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\refint\Csharp.dll
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.pdb
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\Csharp.genruntimeconfig.cache
+D:\CDAC\DotNet_MVC\Csharp\Csharp\obj\Debug\net8.0\ref\Csharp.dll
