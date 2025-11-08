@@ -1,8 +1,105 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model StudentDetail.Models.StudentPageViewModel
+
+@{
+    ViewData["Title"] = "Student Management";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Student Management (Aditya)</h1>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <h3>Add Student</h3>
+        <form asp-action="Index" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="NewStudent.RollNo"></label>
+                <input asp-for="NewStudent.RollNo" class="form-control" />
+                <span asp-validation-for="NewStudent.RollNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NewStudent.Name"></label>
+                <input asp-for="NewStudent.Name" class="form-control" />
+                <span asp-validation-for="NewStudent.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NewStudent.Marks1"></label>
+                <input asp-for="NewStudent.Marks1" class="form-control" />
+                <span asp-validation-for="NewStudent.Marks1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NewStudent.Marks2"></label>
+                <input asp-for="NewStudent.Marks2" class="form-control" />
+                <span asp-validation-for="NewStudent.Marks2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NewStudent.Marks3"></label>
+                <input asp-for="NewStudent.Marks3" class="form-control" />
+                <span asp-validation-for="NewStudent.Marks3" class="text-danger"></span>
+            </div>
+
+            <div class="mt-2">
+                <button type="submit" class="btn btn-primary">Add Student</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-7">
+        <h3>Students List</h3>
+        @if (!Model.Students.Any())
+        {
+            <p>No students yet.</p>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Roll</th>
+                        <th>Name</th>
+                        <th>Marks</th>
+                        <th>Total</th>
+                        <th>%</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in Model.Students)
+                    {
+                        <tr>
+                            <td>@s.RollNo</td>
+                            <td>@s.Name</td>
+                            <td>@s.Marks1, @s.Marks2, @s.Marks3</td>
+                            <td>@s.Total</td>
+                            <td>@s.Percentage.ToString("F2")</td>
+                            <td>
+                                <form asp-action="Delete" method="post" style="display:inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="rollNo" value="@s.RollNo" />
+                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Remove this student?')">Remove</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
 </div>
+
+@section Scripts {
+    <!-- required for client-side unobtrusive validation -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
