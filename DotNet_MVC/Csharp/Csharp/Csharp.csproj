@@ -13,6 +13,7 @@
     <Compile Remove="BankAccount.cs" />
     <Compile Remove="Customer.cs" />
     <Compile Remove="Dynamic_Array.cs" />
+    <Compile Remove="Encapsulation.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="Program1.cs" />
   </ItemGroup>
@@ -23,6 +24,7 @@
     <None Include="BankAccount.cs" />
     <None Include="Customer.cs" />
     <None Include="Dynamic_Array.cs" />
+    <None Include="Encapsulation.cs" />
     <None Include="Program.cs" />
     <None Include="Program1.cs" />
   </ItemGroup>
