@@ -14,6 +14,7 @@
     <Compile Remove="Customer.cs" />
     <Compile Remove="Dynamic_Array.cs" />
     <Compile Remove="Encapsulation.cs" />
+    <Compile Remove="Explicit_Inteface.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="Program1.cs" />
   </ItemGroup>
@@ -27,6 +28,10 @@
     <None Include="Encapsulation.cs" />
     <None Include="Program.cs" />
     <None Include="Program1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Explicit_Inteface.cs" />
   </ItemGroup>
 
 </Project>

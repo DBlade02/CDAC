@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\CDAC\\DotNet_MVC\\Csharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\programgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\programgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\explicit_inteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\explicit_inteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProgramGame.cs",
+              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\ProgramGame.cs",
+              "RelativeDocumentMoniker": "Csharp\\ProgramGame.cs",
+              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\ProgramGame.cs",
+              "RelativeToolTip": "Csharp\\ProgramGame.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA7wEAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:08:50.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Explicit_Inteface.cs",
               "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Explicit_Inteface.cs",
               "RelativeDocumentMoniker": "Csharp\\Explicit_Inteface.cs",
               "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Explicit_Inteface.cs",
               "RelativeToolTip": "Csharp\\Explicit_Inteface.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA8wB8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T18:38:23.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Encapsulation.cs",
               "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Encapsulation.cs",
               "RelativeDocumentMoniker": "Csharp\\Encapsulation.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Csharp\\Encapsulation.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:16:08.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:16:08.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program1.cs",
               "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Program1.cs",
               "RelativeDocumentMoniker": "Csharp\\Program1.cs",
