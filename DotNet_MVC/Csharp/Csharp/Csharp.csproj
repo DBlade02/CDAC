@@ -8,12 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Action.cs" />
+    <Compile Remove="Array.cs" />
+    <Compile Remove="BankAccount.cs" />
     <Compile Remove="Customer.cs" />
+    <Compile Remove="Dynamic_Array.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Action.cs" />
+    <None Include="Array.cs" />
+    <None Include="BankAccount.cs" />
     <None Include="Customer.cs" />
+    <None Include="Dynamic_Array.cs" />
     <None Include="Program.cs" />
   </ItemGroup>
 
