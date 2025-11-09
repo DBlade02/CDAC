@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\CDAC\\DotNet_MVC\\Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\dynamic_array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\dynamic_array.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Array.cs",
-              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Array.cs",
-              "RelativeDocumentMoniker": "Csharp\\Array.cs",
-              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Array.cs",
-              "RelativeToolTip": "Csharp\\Array.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "Encapsulation.cs",
+              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Encapsulation.cs",
+              "RelativeDocumentMoniker": "Csharp\\Encapsulation.cs",
+              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Encapsulation.cs",
+              "RelativeToolTip": "Csharp\\Encapsulation.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T06:48:45.066Z",
+              "WhenOpened": "2025-11-09T18:16:08.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dynamic_Array.cs",
-              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Dynamic_Array.cs",
-              "RelativeDocumentMoniker": "Csharp\\Dynamic_Array.cs",
-              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Dynamic_Array.cs",
-              "RelativeToolTip": "Csharp\\Dynamic_Array.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvx0AAAAsAAAAAAAAAA==",
+              "Title": "Program1.cs",
+              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Program1.cs",
+              "RelativeDocumentMoniker": "Csharp\\Program1.cs",
+              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Program1.cs",
+              "RelativeToolTip": "Csharp\\Program1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T06:42:41.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Csharp\\BankAccount.cs",
-              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\BankAccount.cs",
-              "RelativeToolTip": "Csharp\\BankAccount.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAewDAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T19:51:25.407Z",
+              "WhenOpened": "2025-11-09T15:31:09.645Z",
               "EditorCaption": ""
             }
           ]
