@@ -17,6 +17,7 @@
     <Compile Remove="Explicit_Inteface.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="Program1.cs" />
+    <Compile Remove="ProgramGame.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,7 @@
 
   <ItemGroup>
     <None Include="Explicit_Inteface.cs" />
+    <None Include="ProgramGame.cs" />
   </ItemGroup>
 
 </Project>
