@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <title>Web Pages</title>
+</head>
+<body>
+    <!-- 5a -->
+    <b>5a</b>
+    <br>
+    <form>
+        <table border="1" width="50%">
+            <tr>
+                <th bgcolor="#DD91FA">Name</th>
+                <th bgcolor="#DD91FA">Value</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input type="radio" name="sex" value="male" required> Male
+                    <br>
+                    <input type="radio" name="sex" value="female"> Female
+                    <br>
+                    <input type="radio" name="sex" value="other"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Eye Color</td>
+                <td>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox"> Over 6 feet tall
+                    <br>
+                    <input type="checkbox"> Over 200 Pounds
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Describe your athletic ability:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="myTextBox" rows="5" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enter My Information">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br>
+
+    <!-- 5b -->
+    <b>5b</b>
+    <br>
+    <form>
+        <fieldset style="width:50%">
+            <legend><b>Login Details</b></legend>
+            <table width="100%">
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>City of Employment</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Web Server</td>
+                    <td>
+                        <select>
+                            <option>Apache</option>
+                            <option>Nginx</option>
+                            <option>Microsoft IIS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Please specify your role:</td>
+                    <td>
+                        <input type="radio" name="role" value="admin" required> Admin
+                        <br>
+                        <input type="radio" name="role" value="engineer"> Engineer
+                        <br>
+                        <input type="radio" name="role" value="manager"> Manager
+                        <br>
+                        <input type="radio" name="role" value="guest"> Guest
+                    </td>
+                </tr>
+                <tr>
+                    <td>Single Sign-on to the following:</td>
+                    <td>
+                        <input type="checkbox"> Mail
+                        <br>
+                        <input type="checkbox"> Payroll
+                        <br>
+                        <input type="checkbox"> Self-service
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <!-- 5c -->
+    <b>5c</b>
+    <br>
+    <form>
+        <fieldset style="width:35%">
+            <legend><b>Register</b></legend>
+            Kindly fill in this form to Register.
+            <br><br>
+
+            <b>Username</b><br>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <br>
+
+            <b>Email</b><br>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <br>
+
+            <b>Password</b><br>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <br>
+
+            <b>Confirm Password</b><br>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <br><br>
+
+            <input type="submit" value="Register">
+            <br><br>
+
+            Already have an account?
+            <a href="#">Sign in</a>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
