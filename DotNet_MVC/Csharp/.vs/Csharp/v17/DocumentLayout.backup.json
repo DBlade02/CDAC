@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\CDAC\\DotNet_MVC\\Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\explicit_inteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\explicit_inteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|d:\\cdac\\dotnet_mvc\\csharp\\csharp\\nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1D34C1-0F7C-4897-88A6-32F8A4C721DE}|Csharp\\Csharp.csproj|solutionrelative:csharp\\nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Explicit_Inteface.cs",
-              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Explicit_Inteface.cs",
-              "RelativeDocumentMoniker": "Csharp\\Explicit_Inteface.cs",
-              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Explicit_Inteface.cs",
-              "RelativeToolTip": "Csharp\\Explicit_Inteface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAArAAAAAAAAAA==",
+              "Title": "Nullable.cs",
+              "DocumentMoniker": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Nullable.cs",
+              "RelativeDocumentMoniker": "Csharp\\Nullable.cs",
+              "ToolTip": "D:\\CDAC\\DotNet_MVC\\Csharp\\Csharp\\Nullable.cs",
+              "RelativeToolTip": "Csharp\\Nullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:38:23.258Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-11-11T15:40:45.048Z",
               "EditorCaption": ""
             }
           ]
