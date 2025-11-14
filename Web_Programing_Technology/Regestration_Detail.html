@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Regestration Detail</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #1c4c95;
+            color: #ffffff;
+        }
+        fieldset {
+            border: 2px solid #ffffff;
+            padding: 20px;
+            margin: 20px;
+            width: 37%;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend >Regestration Details</legend>
+            <label>University:</label>
+            <input type="text" name="University" required><br><br>
+            <label>Institute:</label>
+            <input type="text" name="Institute" required><br><br>
+            <label>Branch :</label>
+            <select>
+                <option value="">-- select --</option>
+                <option value="cse">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="mech">Mechanical</option>
+                <option value="civil">Civil</option>
+                <option value="entc">Electronics & Telecommunication</option>
+                <input type="radio" name="Branch" value="Persuing">Persuing
+                <input type="radio" name="Branch" value="Completed">Completed<br><br>
+            </select>
+            <label>Avarage CPI</label>
+            <input type="number" name="CPI" step="0.01" min="0" max="10" required>
+            Upto
+            <input type="number" name="Upto" step="1" min="0" max="8" required> Th Semester<br><br>
+            <label>Experience</label>
+            <input type="number" name="Experience"> Years<br><br>
+            <label>Your Website or Blog:</label>
+            <input type="url" name="Website" placeholder="https://example.com"><br><br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
