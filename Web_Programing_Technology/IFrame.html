@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Iframe Project</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        .menu {
+            background: #4CAF50;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 2px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Iframe Project</h1>
+
+    <div class="menu">
+        <a href="content.html" target="myframe">Load Content Page</a>
+        <a href="https://www.wikipedia.org" target="myframe">Wikipedia</a>
+        <a href="https://www.youtube.com/watch?v=HD13eq_Pmp8" target="myframe">YouTube</a>
+    </div>
+
+    <iframe name="myframe"></iframe>
+
+</body>
+</html>
