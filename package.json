@@ -1,0 +1,24 @@
+{
+  "name": "cdac",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/DBlade02/CDAC#readme",
+  "bugs": {
+    "url": "https://github.com/DBlade02/CDAC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBlade02/CDAC.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.20.0"
+  }
+}
