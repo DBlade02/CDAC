@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Function-Constructor</title>
+</head>
+<body>
+    <script>
+        function Book(Bookid, Bookname, Author, Price) {
+            this.Bookid = Bookid;
+            this.Bookname = Bookname;
+            this.Author = Author;
+            this.Price = Price;
+
+            this.show = function () {
+                return `
+                    Book ID: ${this.Bookid} <br>
+                    Name: ${this.Bookname} <br>
+                    Author: ${this.Author} <br>
+                    Price: ${this.Price} <br><br>
+                `;
+            }
+        }
+
+        var Book1 = new Book(1, "Core Java", "Cat Horstman", 400);
+        var Book2 = new Book(2, "Begining Java", "Ivar Horton", 600);
+        var Book3 = new Book(3, "Learning Java", "Kishori Shahane", 400);
+        var Book4 = new Book(4, "Java Cookbook", "Jhon Keller", 800);
+
+        document.writeln(Book1.show());
+        document.writeln(Book2.show());
+        document.writeln(Book3.show());
+        document.writeln(Book4.show());
+    </script>
+</body>
+</html>

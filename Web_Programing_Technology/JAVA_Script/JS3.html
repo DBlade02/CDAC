@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS3</title>
-    
+    <title>Even Numbers up to n (while loop)</title>
 </head>
+
 <body>
-    
+    <h2>List all even numbers less than or equal to n (using while loop)</h2>
+    <label>Enter n: <input id="n" type="number" value="20"></label>
+    <button onclick="listEven()">Show Even Numbers</button>
+    <pre id="out"></pre>
+
+    <script>
+        function listEven() {
+            const n = Number(document.getElementById('n').value);
+            let i = 2;
+            const res = [];
+            while (i <= n) {
+                if (i % 2 === 0) res.push(i);
+                i++;
+            }
+            document.getElementById('out').textContent = res.join(', ');
+        }
+    </script>
 </body>
+
 </html>

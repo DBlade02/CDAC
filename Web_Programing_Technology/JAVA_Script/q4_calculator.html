@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Simple Calculator (switch)</title>
+</head>
+
+<body>
+    <h2>Calculator (operators: +, -, *, /)</h2>
+    <input id="a" type="number" placeholder="First number">
+    <input id="b" type="number" placeholder="Second number">
+    <input id="op" type="text" placeholder="Operator (+,-,*,/)">
+    <button onclick="compute()">Compute</button>
+    <div id="res"></div>
+
+    <script>
+        function compute() {
+            const a = Number(document.getElementById('a').value);
+            const b = Number(document.getElementById('b').value);
+            const op = document.getElementById('op').value.trim();
+            let ans;
+            switch (op) {
+                case '+': ans = a + b; break;
+                case '-': ans = a - b; break;
+                case '*': ans = a * b; break;
+                case '/': ans = b === 0 ? 'Division by zero' : a / b; break;
+                default: ans = 'Unknown operator';
+            }
+            document.getElementById('res').textContent = 'Result: ' + ans;
+        }
+    </script>
+</body>
+</html>
