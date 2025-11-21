@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-Calculator</title>
+
+    <style>
+        body {
+            background-color: rgb(79, 218, 208);
+            margin: 0;
+            height: 100vh;
+
+            /* Center everything */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+        }
+
+        .box {
+            width: 500px;
+            padding: 30px;
+            text-align: center;
+
+            border: 5px solid black;
+            border-radius: 15px;
+            box-shadow: 10px 10px 5px grey;
+            background-color: rgb(79, 218, 208);
+        }
+
+        button {
+            padding: 10px 20px;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: rgb(1, 240, 204);
+            color: white;
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        input {
+            padding: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><u>Age Calculator — Creator Aditya</u></h1>
+
+    <div class="box">
+        <label> <u>Enter your Date of Birth:</u> </label>
+        <input type="date" id="myTextInput" style="margin-left: 10px;">
+        <br><br>
+
+        <label> <u>Enter the Current Date:</u></label>
+        <input type="date" id="currentDateInput" style="margin-left: 10px;">
+        <br><br>
+
+        <button onclick="calculateAge()">Calculate Age</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+
+    <script>
+        function calculateAge() {
+            var dob = document.getElementById("myTextInput").value;
+            var current = document.getElementById("currentDateInput").value;
+
+            var d1 = new Date(dob);
+            var d2 = new Date(current);
+
+            var age = d2.getFullYear() - d1.getFullYear();
+
+            document.getElementById("result").innerHTML = "You are " + age + " years old";
+        }
+    </script>
+
+</body>
+
+</html>

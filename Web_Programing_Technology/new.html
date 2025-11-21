@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Student{
+            constructor(id, name, age, course){
+                this.id = id;
+                this.name = name;
+                this.age =age;
+                this.course = course;
+            }
+            display(){
+                console.log(`ID: ${this.id} Name: ${this.name} Age: ${this.age} Course: ${this.course}`);
+            }
+        }
+        var s1 = new Student(1, "Alice", 22, "Computer Science");
+        var s2 = new Student(2, "Bob", 23, "Mathematics");
+        s1.display();
+        s2.display();
+    </script>
+    
+    <script>
+        class GraduationStudent extends Student{
+            constructor(id, name, age, course, year){
+                super(id, name, age, course);
+                this.year = year;
+            }
+            display(){
+                super.display();
+                console.log(`Graduation Year: ${this.year}`);
+            }
+        }
+        var s1 = new GraduationStudent(1, "Alice", 22, "Computer Science", 2024);
+        var s2 = new GraduationStudent(2, "Bob", 23, "Mathematics", 2025);
+        s1.display();
+        s2.display();
+    </script>
+
+    
+</body>
+</html>
