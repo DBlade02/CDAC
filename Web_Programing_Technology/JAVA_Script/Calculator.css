@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #08d9d6, #c6fce5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", Arial, sans-serif;
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    margin: 0 0 18px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px red;
+}
+
+/* Glass Box */
+.box {
+    width: 420px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: center;
+}
+
+/* Display Screen */
+.display {
+    width: 100%;
+    height: 55px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.1);
+
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+}
+
+/* Keys Grid */
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 18px;
+}
+
+/* Buttons */
+.key {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: black;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(6px);
+    transition: 0.25s;
+}
+
+/* Hover Effect */
+.key:hover {
+    background: rgba(255, 255, 255, 0.55);
+    transform: translateY(-4px);
+}
+
+/* Operator buttons */
+.key.op {
+    background: rgba(255, 255, 150, 0.4);
+}
+
+/* Clear button */
+.key.clear {
+    background: rgba(255, 150, 150, 0.4);
+}
+
+/* Equal button */
+.key.equal {
+    grid-column: span 2;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.key.equal:hover {
+    background: black;
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+    .box {
+        width: 90vw;
+    }
+}
