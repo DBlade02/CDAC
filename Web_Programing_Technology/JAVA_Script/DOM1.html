@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>getElementById Example</title>
+</head>
+
+<body>
+
+    <h1 id="heading">Original Heading</h1>
+
+    <button onclick="changeText()">Click to Change Text</button>
+
+    <script>
+        function changeText() {
+            let h = document.getElementById("heading");   // Step 1: find element by ID
+            h.innerText = "Text Changed Successfully!";   // Step 2: change the text
+        }
+
+    </script>
+</body>
+
+</html>
