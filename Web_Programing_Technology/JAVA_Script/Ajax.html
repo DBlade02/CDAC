@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJAX Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>Student Information</b></h1>
+    <button onclick="loadData()">Load Students Data</button>
+    <div id="output"></div>
+
+    <script>
+        function loadData() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "data.json", true);
+
+            xhr.onload = function () {
+                if (this.status === 200) {
+                    var data = JSON.parse(this.responseText);
+                    var students = data.students;
+
+                    var result = "<h2>Student List</h2>";
+                    students.forEach(function (s) {
+                        result += `
+                    <p>
+                        <b>ID:</b> ${s.id} <br>
+                        <b>Name:</b> ${s.name} <br>
+                        <b>Course:</b> ${s.course} <br>
+                        <b>Marks:</b> ${s.marks}
+                    </p><hr>`;
+                    });
+
+                    document.getElementById("output").innerHTML = result;
+                }
+            };
+
+            xhr.send();
+        }
+    </script>
+
+</body>
+
+</html>

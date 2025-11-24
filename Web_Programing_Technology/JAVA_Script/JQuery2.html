@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Selectors Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body style="text-align: center;">
+
+<h2 id="title">This is heading</h2>
+<p class="para">I am a paragraph</p>
+<p class="para">I am another paragraph</p>
+<div id="box">
+    <p>Paragraph 1 inside div</p>
+    <p>Paragraph 2 inside div</p>
+</div>
+
+<button id="btn">Click Me</button>
+
+<script>
+    $("#btn").click(function () {
+
+        // Select by ID
+        $("#title").css("color", "red");
+
+        // Select by class
+        $(".para").css("font-size", "20px");
+
+        // Select tag
+        $("p").css("background", "yellow");
+
+        // Select nested elements
+        $("#box p").css("border", "2px solid blue");
+
+        // Select all elements
+        $("*").css("font-weight", "bold");
+
+        // Select paragraphs inside div
+        $("div p").css("text-decoration", "underline");
+
+        // Select all paragraphs inside div
+        $("div > p").css("color", "green");
+    });
+</script>
+
+</body>
+</html>

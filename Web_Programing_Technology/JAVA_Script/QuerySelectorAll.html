@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="text-align: center;">
+    <h2>querySelectorAll() Method</h2>
+    <p>This is paragraph 1.</p>
+    <p>This is paragraph 2.</p>
+    <button onclick="f1()">Change</button>
+    <script>
+        function f1() {
+            let plist = document.querySelectorAll("p");
+            let i;
+            for (i = 0 ;i < plist.length; i++) {
+                plist[i].style.backgroundColor = "lightblue";
+                plist[i].style.color = "white";
+            }
+        }
+    </script>
+</body>
+</html>

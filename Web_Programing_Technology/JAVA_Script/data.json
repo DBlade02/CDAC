@@ -1,0 +1,52 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Rahul Sharma",
+            "course": "B.Tech CSE",
+            "marks": 82
+        },
+        {
+            "id": 2,
+            "name": "Priya Patil",
+            "course": "BCA",
+            "marks": 70
+        },
+        {
+            "id": 3,
+            "name": "Aditya Mogre",
+            "course": "B.Tech CSE",
+            "marks": 90
+        },
+        {
+            "id": 4,
+            "name": "Rohan Deshmukh",
+            "course": "MCA",
+            "marks": 76
+        },
+        {
+            "id": 5,
+            "name": "Sneha Kulkarni",
+            "course": "B.Tech IT",
+            "marks": 88
+        },
+        {
+            "id": 6,
+            "name": "Anjali Singh",
+            "course": "BCA",
+            "marks": 65
+        },
+        {
+            "id": 7,
+            "name": "Rajesh Kumar",
+            "course": "B.Tech CSE",
+            "marks": 91
+        },
+        {
+            "id": 8,
+            "name": "Riya Patel",
+            "course": "MCA",
+            "marks": 78
+        }
+    ]
+}
