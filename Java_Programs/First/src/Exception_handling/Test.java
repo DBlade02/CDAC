@@ -16,47 +16,40 @@ package Exception_handling;
 
 import java.util.Scanner;
 
-public class NumberFormatExample {
+public class Test {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         try {
             System.out.print("Enter a number: ");
             String input = sc.nextLine();
-
-            int number = Integer.parseInt(input);  // may throw NumberFormatException
+            int number = Integer.parseInt(input);
             System.out.println("Converted number: " + number);
-
         } catch (NumberFormatException e) {
             System.out.println("Invalid input! Please enter a valid integer.");
         } finally {
             System.out.println("Operation complete.");
         }
 
-        sc.close();
-}
-
-public class Test extends NumberFormatException {
-    public static void main(String[] args) {
         try {
-            // First nested try block
             try {
                 int a = 10, b = 0;
-                int result = a / b;  // may throw ArithmeticException
+                int result = a / b;
                 System.out.println("Division result: " + result);
             } catch (ArithmeticException e) {
                 System.out.println("Error: Division by zero is not allowed.");
             }
 
-            // Second nested try block
             try {
                 int[] arr = {1, 2, 3};
-                System.out.println("Accessing index 5: " + arr[5]);  // may throw ArrayIndexOutOfBoundsException
+                System.out.println("Accessing index 5: " + arr[5]);
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Error: Array index out of bounds.");
             }
-
         } finally {
             System.out.println("Operation complete.");
         }
+
+        sc.close();
     }
 }
